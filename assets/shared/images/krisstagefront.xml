@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="krisstagefront.png">
+	<!-- Created with Adobe Animate version 21.0.1.37179 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="Puddle0000" x="0" y="0" width="2560" height="563"/>
+	<SubTexture name="Puddle0001" x="2560" y="0" width="2560" height="563"/>
+	<SubTexture name="Puddle0002" x="5120" y="0" width="2560" height="563"/>
+	<SubTexture name="Puddle0003" x="0" y="563" width="2560" height="563"/>
+	<SubTexture name="Puddle0004" x="2560" y="563" width="2560" height="563"/>
+	<SubTexture name="Puddle0005" x="5120" y="563" width="2560" height="563"/>
+	<SubTexture name="Puddle0006" x="0" y="1126" width="2560" height="563"/>
+	<SubTexture name="Puddle0007" x="2560" y="1126" width="2560" height="563"/>
+	<SubTexture name="Puddle0008" x="5120" y="1126" width="2560" height="563"/>
+	<SubTexture name="Puddle0009" x="0" y="1689" width="2560" height="563"/>
+	<SubTexture name="Puddle0010" x="0" y="0" width="2560" height="563"/>
+	<SubTexture name="Puddle0011" x="0" y="0" width="2560" height="563"/>
+	<SubTexture name="Puddle0012" x="0" y="0" width="2560" height="563"/>
+	<SubTexture name="Puddle0013" x="0" y="0" width="2560" height="563"/>
+	<SubTexture name="Puddle0014" x="2560" y="0" width="2560" height="563"/>
+	<SubTexture name="Puddle0015" x="5120" y="0" width="2560" height="563"/>
+	<SubTexture name="Puddle0016" x="0" y="563" width="2560" height="563"/>
+	<SubTexture name="Puddle0017" x="2560" y="563" width="2560" height="563"/>
+	<SubTexture name="Puddle0018" x="5120" y="563" width="2560" height="563"/>
+	<SubTexture name="Puddle0019" x="0" y="1126" width="2560" height="563"/>
+	<SubTexture name="Puddle0020" x="2560" y="1126" width="2560" height="563"/>
+	<SubTexture name="Puddle0021" x="5120" y="1126" width="2560" height="563"/>
+	<SubTexture name="Puddle0022" x="0" y="1689" width="2560" height="563"/>
+	<SubTexture name="Puddle0023" x="0" y="0" width="2560" height="563"/>
+	<SubTexture name="Puddle0024" x="0" y="0" width="2560" height="563"/>
+	<SubTexture name="Puddle0025" x="0" y="0" width="2560" height="563"/>
+	<SubTexture name="Puddle0026" x="0" y="0" width="2560" height="563"/>
+	<SubTexture name="Puddle0027" x="0" y="0" width="2560" height="563"/>
+	<SubTexture name="Puddle0028" x="0" y="0" width="2560" height="563"/>
+	<SubTexture name="Puddle0029" x="0" y="0" width="2560" height="563"/>
+	<SubTexture name="Puddle0030" x="0" y="0" width="2560" height="563"/>
+	<SubTexture name="Puddle0031" x="0" y="0" width="2560" height="563"/>
+	<SubTexture name="Puddle0032" x="0" y="0" width="2560" height="563"/>
+	<SubTexture name="Puddle0033" x="0" y="0" width="2560" height="563"/>
+	<SubTexture name="Puddle0034" x="0" y="0" width="2560" height="563"/>
+	<SubTexture name="Puddle0035" x="0" y="0" width="2560" height="563"/>
+	<SubTexture name="Puddle0036" x="0" y="0" width="2560" height="563"/>
+	<SubTexture name="Puddle0037" x="0" y="0" width="2560" height="563"/>
+	<SubTexture name="Puddle0038" x="0" y="0" width="2560" height="563"/>
+</TextureAtlas>
