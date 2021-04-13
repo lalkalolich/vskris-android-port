@@ -49,7 +49,8 @@ class StoryMenuState extends MusicBeatState
 	var curDifficulty:Int = 1;
 
 	public static var weekUnlocked:Array<Bool> = [true, true, true, true, true, true, true, true, false, false];
-
+	
+	
 	var weekCharacters:Array<Dynamic> = [
 		['gf', 'bf', ''],
 		['dad', 'bf', 'gf'],
@@ -92,6 +93,13 @@ class StoryMenuState extends MusicBeatState
 
 	override function create()
 	{
+		if (FlxG.save.data.weekUnlocked == null) {
+			FlxG.save.data.weekUnlocked = weekUnlocked;
+		}	
+		else
+		{
+			weekUnlocked = FlxG.save.data.weekUnlocked;
+		}
 		#if desktop
 		// Updating Discord Rich Presence
 		DiscordClient.changePresence("In the Menus", null);

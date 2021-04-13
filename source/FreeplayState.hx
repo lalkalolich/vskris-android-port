@@ -37,6 +37,9 @@ class FreeplayState extends MusicBeatState
 
 	override function create()
 	{
+		if (FlxG.save.data.weekUnlocked == null) {
+			FlxG.save.data.weekUnlocked = [true, true, true, true, true, true, true, true, false, false];
+		}	
 		var initSonglist = CoolUtil.coolTextFile(Paths.txt('freeplaySonglist'));
 
 		
@@ -67,6 +70,7 @@ class FreeplayState extends MusicBeatState
 			addWeek(['Cocoa', 'Eggnog', 'Winter-Horrorland'], 5, ['parents-christmas', 'parents-christmas', 'monster-christmas']);
 			
 			addWeek(['Senpai', 'Roses', 'Thorns'], 6, ['senpai', 'senpai', 'spirit']);
+		if (StoryMenuState.weekUnlocked[8] || isDebug)
 			addWeek(['Field-of-Hopes-and-Dreams', 'Rude-Buster'], 7, ['kris', 'kris']);
 		if (StoryMenuState.weekUnlocked[9] || isDebug)	
 			addWeek(['The-World-Revolving'], 8, ['jevil']);

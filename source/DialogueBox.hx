@@ -234,12 +234,12 @@ class DialogueBox extends FlxSpriteGroup
 
 		if (PlayState.SONG.song.toLowerCase()=='field-of-hopes-and-dreams' || PlayState.SONG.song.toLowerCase()=='rude-buster' || PlayState.SONG.song.toLowerCase()=='the-world-revolving')
 		{
-			dropText = new FlxText(400, 500, Std.int(FlxG.width * 0.6), "", 64);
+			dropText = new FlxText(400, 475, Std.int(FlxG.width * 0.6), "", 64);
 			dropText.font = '8bitoperator JVE Regular';
 			dropText.color = 0xFFFFFF;
 			add(dropText);
 	
-			swagDialogue = new FlxTypeText(400, 500, Std.int(FlxG.width * 0.6), "", 64);
+			swagDialogue = new FlxTypeText(400, 475, Std.int(FlxG.width * 0.6), "", 64);
 			swagDialogue.font = '8bitoperator JVE Regular';
 			swagDialogue.color = 0xFFFFFF;
 			swagDialogue.sounds = [FlxG.sound.load(Paths.sound('pixelText'), 0.6)];
