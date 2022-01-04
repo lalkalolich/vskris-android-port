@@ -28,7 +28,9 @@ class OptionsMenu extends MusicBeatState
 		#end
 		new EtternaModeOption(),
 		new CustomizeGameplay(),
-		new ReplayOption()
+		new ReplayOption(),
+		new CustomControls(),
+	    new About()
 	];
 
 	private var grpControls:FlxTypedGroup<Alphabet>;
@@ -61,6 +63,10 @@ class OptionsMenu extends MusicBeatState
 		versionShit.scrollFactor.set();
 		versionShit.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 		add(versionShit);
+		
+		#if mobileC
+		addVirtualPad(FULL, A_B);
+		#end
 
 		super.create();
 	}
