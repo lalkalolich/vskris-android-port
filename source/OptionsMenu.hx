@@ -30,7 +30,7 @@ class OptionsMenu extends MusicBeatState
 		new CustomizeGameplay(),
 		new ReplayOption(),
 		new CustomControls(),
-	    new About()
+	        new About()
 	];
 
 	private var grpControls:FlxTypedGroup<Alphabet>;
